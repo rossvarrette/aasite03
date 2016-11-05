@@ -1802,7 +1802,7 @@
 	body {
 		background: #fff;
 		height: 100%;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Futura', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -1822,7 +1822,7 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Futura', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -1842,7 +1842,7 @@
 
 	h2 {
 		font-size: 2.25em;
-		letter-spacing: -2px;
+		letter-spacing: 5px;
 		line-height: 1.25em;
 	}
 
@@ -2843,11 +2843,12 @@
 		}
 
 	#nav {
-		position: absolute;
+		position: relative;
 		right: 0.5em;
 		top: 0;
 		height: 3em;
 		line-height: 3em;
+		text-align: center;
 	}
 
 		#nav ul {
@@ -2873,7 +2874,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/bgs/intro.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2883,7 +2884,7 @@
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/bgs/one.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2892,7 +2893,7 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/bgs/two.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
